@@ -22,12 +22,13 @@
   
  <body>
 
-<?php include('includes/nav.php'); ?>.
+<?php include('includes/nav.php'); ?>
+<?php include('includes/carrousel.php'); ?>
 <?php include('includes/bienvenue.html'); ?>
 <?php include('includes/video.php'); ?>
 <?php include('includes/module_facebook.php'); ?>
 
-   <script> $(document).ready(function(){
+<!--    <script> $(document).ready(function(){
       $('.carousel').carousel();
     });</script>
 
@@ -37,7 +38,7 @@
     <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
     <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>
   </div>
-
+ -->
 <script>$('.carousel.carousel-slider').carousel({full_width: true});</script>
 
 <?php include('includes/footer.php'); ?>
