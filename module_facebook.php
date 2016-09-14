@@ -9,8 +9,8 @@
 
 <div class="fb-page" 
 	data-href="https://www.facebook.com/pointjardin/" 
-	data-width="1200" 
-	data-height="300" 
+	data-width="2000" 
+	data-height="800" 
 	data-tabs="timeline" 
 	data-small-header="false" 
 	data-adapt-container-width="true" 
