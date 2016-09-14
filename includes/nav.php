@@ -32,7 +32,8 @@
                 <li><a href="#!">Dalles avéolées</a></li>
     		</ul>
             <div class="nav-wrapper">
-                <img src="images/rsz_1logo.gif" class="brand-logo" alt="Logo">
+                <img src="images/rsz_2logo.gif" class="brand-logo" alt="Logo">
+<!--                 <img src="images/logo_right.gif" class="brand-logo" alt="Logo"> -->
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li>
@@ -49,7 +50,10 @@
                         <a class="dropdown-button" href="#!" data-activates="dropdown3">ACCESSOIRES<i class="material-icons right">arrow_drop_down</i></a>
                     </li>
                     <li>
-                        <a href="badges.html">QUI SOMMES-NOUS?</a>
+                        <a href="#">QUI SOMMES-NOUS?</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/pages/Point-Jardin/861988743863661"><img src="images/logo_fb4.gif" alt="Facebook"></a>
                     </li>
                 </ul>
                 <ul id="mobile-demo" class="side-nav">
