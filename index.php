@@ -1,3 +1,6 @@
+<!-- Hello World -->
+<!-- Comment ça va ? -->
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
