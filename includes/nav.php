@@ -32,7 +32,7 @@
                 <li><a href="#!">Dalles avéolées</a></li>
     		</ul>
             <div class="nav-wrapper">
-                <img src="images/rsz_logo.gif" class="brand-logo" alt="Logo">
+                <img src="images/rsz_1logo.gif" class="brand-logo" alt="Logo">
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li>
