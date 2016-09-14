@@ -22,7 +22,7 @@
  <body>
 
 <?php include('includes/nav.php'); ?>
-<?php include('includes/carrousel.php'); ?>
+<?php include('includes/carrousel.html'); ?>
 <?php include('includes/bienvenue.html'); ?>
 <?php include('includes/video.php'); ?>
 <?php include('includes/module_facebook.php'); ?>
