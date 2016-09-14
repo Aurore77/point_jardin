@@ -3,21 +3,21 @@
             <div class="row">
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Contact</h5>
-                    <p>
+                    <p class="white-text">
                         54 route Nationale 12 <br />
-                        28380 Saint-Rémy-sur-Avre <br />
-                        02.37.63.50.22 <br />
-                        info@point-jardin.fr
+                        28380 Saint-Rémy-sur-Avre <br /><br />
+                        Tél : 02 37 63 50 22 <br /><br />
+                        Mail : info@point-jardin.fr
                     </p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Horaires</h5>
-                    <p>
-                        Du lundi au vendredi : <br />
+                    <p class="white-text">
+                        <u>Du lundi au vendredi</u> : <br />
                         8h/12h - 13h30/18h <br />
-                        Le samedi : <br />
+                        <u>Le samedi</u> : <br />
                         9h/17h30 non stop <br />
-                        Le dimanche : <br />
+                        <u>Le dimanche</u> : <br />
                         Ouverture exceptionnelle indiquée en page Accueil.
                     </p>
                 </div>
