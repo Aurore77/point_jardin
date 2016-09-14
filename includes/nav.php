@@ -31,7 +31,7 @@
                 <li><a href="#!">Gazon</a></li>
                 <li><a href="#!">Dalles avéolées</a></li>
     		</ul>
-            <div class="nav-wrapper">
+            <div class="nav-wrapper green-background green-font">
                 <img src="images/rsz_2logo.gif" class="brand-logo" alt="Logo">
 <!--                 <img src="images/logo_right.gif" class="brand-logo" alt="Logo"> -->
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>

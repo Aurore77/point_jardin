@@ -1,4 +1,4 @@
-    <footer class="page-footer">
+    <footer class="green-background page-footer">
         <div class="container">
             <div class="row">
                 <div class="col l4 offset-l2 s12">
