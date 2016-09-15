@@ -31,20 +31,29 @@
     </div>
 </footer>
 
-<!-- Appel Script -->
-<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<!-- Appel Script aide au Dropdown nav-->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<!-- Compiled and minified JavaScript Dropdown nav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 
 <!-- Script Barre de navigation -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
 
-<!--Caroussel -->
-<!--     <script type="text/javascript">
-        $('.carousel.carousel-slider').carousel({full_width: true}); 
-    </script> -->
-<script>$('.carousel.carousel-slider').carousel({full_width: true});</script>
+
+
+<!--Import jQuery before materialize.js Carousel-->
+     <!--  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="../materialize/js/materialize.min.js"></script> -->
+
+<!-- Jquery Carousel -->
+<script type="text/javascript" src="../materialize/js/materialize.js">$('.carousel.carousel-slider').carousel({full_width: true});</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+  $('.slider').slider();
+});
+</script>
 </body>
 </html>

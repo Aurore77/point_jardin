@@ -37,7 +37,7 @@
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li>
-                        <a href="sass.html">ACCUEIL</a>
+                        <a href="index.php">ACCUEIL</a>
                     </li>
                     <!--dropdown button-->
                     <li>
