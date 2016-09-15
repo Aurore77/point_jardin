@@ -23,8 +23,20 @@
  <body>
 
 <?php include('includes/nav.php'); ?>
+
+<div class="titre row">
+    <div class="col l12 s6 offset-s3">
+        <h1>BIENVENUE CHEZ POINT JARDIN !</h1>
+        <h3 class="soustitre">La qualité à prix malin</h3>
+        <h4>Paul et Laurentine vous accueillent dans votre nouveau point de vente de mat&eacute;riaux pour l'am&eacute;nagement du jardin.</h4>
+    </div>
+</div>
+
+
 <?php include('includes/carrousel.html'); ?>
-<?php include('includes/bienvenue.html'); ?>
-<?php include('includes/video.php'); ?>
+<div class="presentation">
+    <?php include('includes/bienvenue.html'); ?>
+    <?php include('includes/video.php'); ?>
+</div>
 <?php include('includes/module_facebook.php'); ?>
 <?php include('includes/footer.php'); ?>

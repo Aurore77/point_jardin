@@ -1,25 +1,37 @@
 <footer class="green-background page-footer">
     <div class="container">
         <div class="row">
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Contact</h5>
+            <div class="col l4 s12">
+                <h5 class="white-text">CONTACT</h5>
                 <p class="white-text">
                     54 route Nationale 12 <br />
-                    28380 Saint-Rémy-sur-Avre <br /><br />
-                    Tél : 02 37 63 50 22 <br /><br />
+                    28380 Saint-Rémy-sur-Avre <br />
+                    Tél : 02 37 63 50 22 <br />
                     Mail : info@point-jardin.fr
                 </p>
             </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Horaires</h5>
-                <p class="white-text">
-                    <u>Du lundi au vendredi</u> : <br />
-                    8h/12h - 13h30/18h <br />
-                    <u>Le samedi</u> : <br />
-                    9h/17h30 non stop <br />
-                    <u>Le dimanche</u> : <br />
-                    Ouverture exceptionnelle indiquée en page Accueil.
-                </p>
+            <div class="col l8 s12">
+                <h5 class="white-text horaires">HORAIRES</h5>
+                <div class="row">
+                    <div class="col l4 s12">
+                        <p class="white-text">
+                            <u>Du lundi au vendredi</u> : <br />
+                            8h/12h - 13h30/18h
+                        </p>
+                    </div>
+                    <div class="col l4 s12">
+                        <p class="white-text">
+                            <u>Le samedi</u> : <br />
+                            9h/17h30 non stop
+                        </p>
+                    </div>
+                    <div class="col l4 s12">
+                        <p class="white-text">
+                            <u>Le dimanche</u> : <br />
+                            Ouverture exceptionnelle indiquée en page Accueil.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -51,9 +63,16 @@
 <script type="text/javascript" src="../materialize/js/materialize.js">$('.carousel.carousel-slider').carousel({full_width: true});</script>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-  $('.slider').slider();
+    $(document).ready(function(){ 
+    $('.slider').slider(); 
+});
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){  $(".button-collapse").sideNav(); <!--version responsive-->
 });
 </script>
+
+
 </body>
 </html>
