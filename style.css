@@ -212,6 +212,11 @@ footer
     text-align: left;
   }
 
+  .video 
+  {
+    width: 150%;
+  }
+
   body h1 
   {
     padding-top: 40px;
