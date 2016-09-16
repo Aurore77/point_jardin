@@ -41,12 +41,16 @@ h2
   margin:auto;
 }
 
-.gazon
+.gazon h5
 {
-  padding-left:240px;
-  padding-right:-500px;
-  white-space: nowrap;
+  /*padding-left:240px;*/
+  /*padding-right:-500px;*/
+
+  /*white-space: nowrap;*/
+  text-align: center !important;
 }
+
+
 
 .caption h3
 {
