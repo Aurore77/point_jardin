@@ -11,13 +11,13 @@
 			(document, 'script', 'facebook-jssdk'));
 		</script>
 
-	<div class="fb-page col l6 offset-l3 s12"
+	<div class="fb-page col l6 offset-l3 m6 offset-m3 s12"
 	data-href="https://www.facebook.com/pointjardin/" 
 	data-width="3000" 
 	data-height="300" 
 	data-tabs="timeline" 
-	data-small-header="false" 
-	data-adapt-container-width="true" 
+	data-small-header="true" 
+	data-adapt-container-width="false" 
 	data-hide-cover="false" 
 	data-show-facepile="true">
 		<blockquote cite="https://www.facebook.com/pointjardinjardin/" class="fb-xfbml-parse-ignore">

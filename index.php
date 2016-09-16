@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Point Jardin est un point de vente de matériaux pour l'aménagement du jardin." />
+
     <title>Point Jardin</title>
 
     <!-- Google fonts -->
@@ -25,7 +27,7 @@
 <?php include('includes/nav.php'); ?>
 
 <div class="titre row">
-    <div class="col l12 s6 offset-s3">
+    <div class="col l12 s12">
         <h1>BIENVENUE CHEZ POINT JARDIN !</h1>
         <h3 class="soustitre">La qualité à prix malin</h3>
         <h4>Paul et Laurentine vous accueillent dans votre nouveau point de vente de mat&eacute;riaux pour l'am&eacute;nagement du jardin.</h4>

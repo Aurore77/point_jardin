@@ -1,32 +1,32 @@
 <footer class="green-background page-footer">
     <div class="container">
         <div class="row">
-            <div class="col l4 s12">
-                <h5 class="white-text">CONTACT</h5>
-                <p class="white-text">
+            <div class="col l4 m4 s12">
+                <h5 class="white-text contact">CONTACT</h5>
+                <p class="white-text textfooter">
                     54 route Nationale 12 <br />
                     28380 Saint-Rémy-sur-Avre <br />
                     Tél : 02 37 63 50 22 <br />
                     Mail : info@point-jardin.fr
                 </p>
             </div>
-            <div class="col l8 s12">
+            <div class="col l8 m8 s12">
                 <h5 class="white-text horaires">HORAIRES</h5>
                 <div class="row">
                     <div class="col l4 s12">
-                        <p class="white-text">
+                        <p class="white-text textfooter">
                             <u>Du lundi au vendredi</u> : <br />
                             8h/12h - 13h30/18h
                         </p>
                     </div>
                     <div class="col l4 s12">
-                        <p class="white-text">
+                        <p class="white-text textfooter">
                             <u>Le samedi</u> : <br />
                             9h/17h30 non stop
                         </p>
                     </div>
                     <div class="col l4 s12">
-                        <p class="white-text">
+                        <p class="white-text textfooter">
                             <u>Le dimanche</u> : <br />
                             Ouverture exceptionnelle indiquée en page Accueil.
                         </p>
@@ -70,6 +70,27 @@
 </script>
 <script type="text/javascript">
     $(document).ready(function(){  $(".button-collapse").sideNav(); <!--version responsive-->
+});
+</script>
+
+<!-- Ajout d'un bouton scroll vers le haut -->
+
+<script>$(document).ready(function () {
+    // Add return on top button
+    $('body').append('<div id="returnOnTop" title="Return on top">&nbsp;</div>');
+
+    // On button click, let's scroll up to top
+    $('#returnOnTop').on ('click', function() {
+        $('html,body').animate({scrollTop: 0}, 'slow');
+    });
+});
+
+$(window).scroll(function() {
+    // If on top fade the bouton out, else fade it in
+    if ( $(window).scrollTop() == 0 )
+        $('#returnOnTop').fadeOut();
+    else
+        $('#returnOnTop').fadeIn();
 });
 </script>
 
